@@ -6,7 +6,7 @@ Repo for I211 Labs
 
 - [x] Python Review
 
-## Lab 1
+## Lab 2
 * Add date for Lab 2 *
 
 - [x] Using Git
