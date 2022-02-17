@@ -1,2 +1,3 @@
-print('Lecture 6: Git and Github')
-print('Testing out the repo')
+# Lab 03 - Max Leitgeb
+print('Lab 03: Git and Github')
+print('Linked a local repository to a remote repository')
