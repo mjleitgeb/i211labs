@@ -13,8 +13,15 @@ print(os.listdir("/Users/maxleitgeb/Desktop/i211/I211_labs/lab3/lab_03_starter/e
 #Part 2: Change the current working directory to the resources/code/ directory.
 # Print out the names of all of the files (not directories!) and their sizes
 os.chdir(os.path.join(os.getcwd(), "resources/code/"))
-print(os.listdir(os.getcwd()))
-
+resources = os.listdir(os.getcwd())
+for item in resources:
+    if os.path.isfile(item) == True:
+        print(item)
+        print(os.path.getsize(item))
+# print(os.path.getsize(".DS_Store"))
+# print(os.path.getsize("code1.py"))
+# print(os.path.getsize("code2.py"))
+# print(os.path.getsize("database_functions.py"))
 
 #Part 3: Rename the functions.py file to database_functions.py.
 #os.rename('functions.py', 'database_functions.py')
