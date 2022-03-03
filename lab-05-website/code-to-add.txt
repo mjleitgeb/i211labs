@@ -1,0 +1,172 @@
+DIRECTIONS: Add these pieces to your HTML files
+
+
+Adds a favicon, resets browser default stylesheet, adds our own custom styles:
+
+<!-- CSS Styles -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<!-- resets default browser styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- custom styles -->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+Adds a script that prints out the current time and date:
+
+<!-- To use, connect to (place this line of HTML code)...
+     <p id="date-and-time"></p> 
+     ...in the HTML for the script to work -->
+<!-- JavaScript -->
+<script src="js/date-and-time.js"></script>
+
+
+Add to index.html - complete the HTML markup of the content:
+
+<!-- HTML Content Displayed in the Browser -->
+<div class="container">
+    <nav>
+        <!-- Add a link to "Home" (index.html) -->
+
+    </nav>
+    <main>
+        <!-- Add an H1 that says "Recipes" -->
+        <!-- Use this tutorial to add a "card" featuring the recipe -->
+        <!-- Update the image and text to match our content/design -->
+        <!-- You'll need to change the tutorial's "container" class to "card-container"
+             or there will be a conflict with the class we already have called "container" -->
+        <!-- https://www.w3schools.com/howto/howto_css_cards.asp -->
+
+
+    </main>
+    <footer>
+        <!-- Use JavaScript & HTML to add the current date and time -->
+
+    </footer>
+</div>
+
+
+Add to recipe.html - complete the HTML markup of the content:
+
+<div class="container">
+    <nav>
+        <!-- Add a link to "Home" (index.html) -->
+
+    </nav>
+    <main>
+        <!-- 
+            DIRECTIONS:
+            Recipe Finder           = class "tag" 
+            Classic Basil Pesto     = H1
+            Image/Caption           = use figure + img + figcaption
+            Scott Suchman...        = figcaption
+            Eat Voraciously...      = bolded
+            Genoa's ode...          = class "description"
+            Active time...          = bulleted list, class = "description"
+            Storage Notes...        = class "note"
+            Ingredients             = H2
+            2 cups...               = bulleted list
+            Directions              = H2
+            In the bowl...          = numbered list
+            Note:...                = class "note"
+            Adapted from...         = italicized
+
+            To make a dotted divider line: 
+            <hr class="dotted-line">
+        -->
+
+        Recipe Finder
+        
+        Classic Basil Pesto
+
+        <!-- Add figure with image for the recipe, slug (alt) is "Basil Pesto" -->
+        Scott Suchman for The Washington Post; styling by Lisa Cherkasky for The Washington Post
+
+        <!-- 
+            Link to "Eat..." 
+            https://www.washingtonpost.com/food/2021/02/10/easy-recipe-newsletter-free/
+        -->
+        Eat Voraciously Newsletter • Jul 14, 2021
+
+        Genoa’s ode to basil is traditionally made in a mortar and pestle — after all, the name pesto comes from the Italian verb pestare, to pound or grind. And you can certainly make this recipe in a large mortar and pestle, but a food processor speeds up the process nicely. Garlic, extra-virgin olive oil and salt support the basil in the base of this pesto, which is adapted from Marcella Hazan’s “Essentials of Italian Cooking.” Hazan notes that stirring in the grated cheese by hand at the end enhances the pesto’s texture, and she’s right. Her recipe also includes a bit of softened butter — it enriches the sauce, and makes it glide across freshly boiled pasta — but we’ve made it optional here. One suggested tweak: For pesto that will stay green in your fridge for a week, blanch the basil first. A quick dip in a boiling water bath sets the herb’s verdant, peppery flavor. It’s not necessary, but is a nice trick — and one that works with any herb or flavorful leafy green, including parsley, mint, arugula, chard and kale.
+
+        Active time: 10 mins; Total time: 10 mins
+        Tested size: 2-8 servings; makes about 1 cups
+
+        Storage Notes: Leftover pesto may be refrigerated in an airtight container for up to 1 week. If you’ve blanched the basil (see NOTE), it will stay green; if not, it will gradually turn brown, but will retain its flavor. Pesto may also be frozen, packed airtight, for up to 2 months.
+
+        Ingredients
+
+        2 cups (2 ounces) packed fresh basil leaves and tender stems
+        1/2 cup extra-virgin olive oil
+        3 tablespoons (1 ounce) pine nuts, preferably toasted
+        2 cloves garlic, chopped
+        1/4 teaspoon fine sea or table salt, plus more as needed
+        1/2 cup plus 2 tablespoons (2 1/2 ounces) grated Parmesan cheese, or a combination of Parmesan and pecorino Romano
+        2 tablespoons unsalted butter, very soft but not melted (optional)
+
+        Directions
+
+        In the bowl of a food processor, combine the basil (blanched, if desired; see NOTE), olive oil, pine nuts, garlic and salt. Process until smooth, 30 seconds to 1 minute, stopping to scrape down the bowl, if necessary.
+        
+        Transfer the basil puree to a medium bowl and stir in the cheese and softened butter, if using. Taste, and add additional salt if desired. Serve or refrigerate until needed.
+        
+        Note: To make pesto that will stay green for up to a week, blanch the basil: Fill a medium bowl with ice water. Bring a quart of water and 2 teaspoons of fine sea or table salt to a rolling boil over high heat. Gently stir in the basil, and cook for 45 seconds; it will become deep green and wilted. Using a slotted spoon, transfer the basil to the ice bath. Once it’s cold, strain and use your hands to squeeze out any excess water before proceeding with the&nbsp;recipe.
+
+        <!-- 
+            Link to "Recipe Source" 
+            https://www.washingtonpost.com/recipes/classic-basil-pesto/17929/ 
+        -->
+        Recipe Source
+
+        Adapted from “Essentials of Classic Italian Cooking” by Marcella Hazan (Knopf, 1992).
+
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">
+                        <h3>Nutritional Facts</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2">Calories per serving (per tablespoon): 105</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>% Daily Values*</td>
+                </tr>
+                <!-- Mark up the rest of the table body -->
+                
+                Total Fat: 11g 17%
+
+                Saturated Fat: 3g 15%
+
+                Cholesterol: 8mg 3%
+
+                Sodium: 105mg 4%
+
+                Total Carbohydrates: 1g 0%
+
+                Dietary Fiber: 0g 0%
+
+                Sugar: 0g
+
+                Protein: 2g
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <small>*Percent Daily Value based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</small>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <!-- Use JavaScript & HTML to add the current date and time -->
+
+    </footer>
+</div>
+

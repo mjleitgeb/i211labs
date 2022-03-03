@@ -1,0 +1,88 @@
+/* natural box model */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* UTILITIES */
+
+/* hides an element on screen, but not from screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* GENERAL */
+body {
+  /* https://www.svgbackgrounds.com */
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='79' height='79' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 1.0em 3.0em 3.0em 2.0em;
+  background-color: #ffffff;
+  box-shadow: inset -2em -1em gold;
+}
+
+/* IMAGES & LINKS */
+img {
+  width: 100%;
+  border-radius: 3%;
+}
+
+a:link, a:visited {
+  color: orangered;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: orange;
+}
+
+/* TYPOGRAPHY */
+h1, h2, p, li, figcaption, a {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.3em;
+}
+
+h1, h2 {
+  margin: 2.0em 0 1.0em;
+}
+
+h2 {
+  border-top: 3px dotted orangered;
+  padding-top: 0.75em;
+  margin-top: 1.25em;
+}
+
+li {
+  padding-bottom: 0.5em;
+}
+
+figcaption {
+  font-size: 16px;
+  margin: 0.5em 0 1.5em;
+  font-style: italic;
+}
+
+/* APPLY AS NEEDED */
+.subtitle {
+  font-size: 24px;
+  margin: 0 0 0.5em;
+}
+
+#date-and-time {
+  font-size: 12px;
+}
+

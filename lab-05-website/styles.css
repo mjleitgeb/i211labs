@@ -1,0 +1,150 @@
+/* DIRECTIONS: As you style each page, reference the stylesheet to see how the pieces connect */
+/* Classes that you will need to add on your own are in the last section at the bottom */
+
+/* natural box model */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* UTILITIES */
+/* hides an element on screen, but not from screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* GENERAL */
+body {
+  /* https://www.svgbackgrounds.com */
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23F5F5F5' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.container {
+  max-width: 960px;
+  margin: 50px auto;
+  padding: 1.0em 5.0em 4.0em 3.0em;
+  background-color: #ffffff;
+  box-shadow: inset -2em -1em #87ac19;
+  border: thin solid lightgrey;
+}
+
+nav {
+  text-align: end;
+}
+
+/* IMAGES & LINKS */
+img {
+  width: 100%;
+  border-radius: 3%;
+}
+
+figure {
+  margin-bottom: 3.0em;
+}
+figcaption {
+  font-size: 16px;
+  margin: 0.5em 0 1.5em;
+  font-style: italic;
+}
+
+a:link, a:visited {
+  color: orangered;
+  text-decoration: none;
+}
+a:hover, a:active {
+  color: orange;
+}
+
+/* TYPOGRAPHY */
+h1, h2, p, li, figcaption, a, td {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.3em;
+}
+h1, h2 {
+  margin: 1.5em 0 1.0em;
+}
+h3 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: normal;
+}
+p {
+  line-height: 1.5em;
+}
+li {
+  padding-bottom: 0.75em;
+}
+
+/* Tables */
+table {
+  margin: 2.0em 4.0em;
+  padding: 1.0em;
+  border: 1px solid grey;
+}
+th {
+  text-align: start;
+}
+td {
+  /* border-top: 1px solid grey; */
+  padding: 0.5em 0;
+}
+
+/* Card */
+.card {
+  width: 33%;
+  opacity: 0.9;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  opacity: 1.0;
+}
+.card-container {
+  padding: 2px 16px;
+}
+.card img {
+  border-radius: 5px 5px 0 0;
+}
+.card-link:link h2, .card-link:visited h2, .card-link:link p, .card-link:visited p {
+  color: black;
+}
+.card-link:active h2, .card-link:hover h2, .card-link:active p, .card-link:hover p {
+  color: black;
+}
+
+/* APPLY AS NEEDED */
+.tag {
+  color: #5e7811;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 17.5px;
+}
+
+.note {
+  font-size: 14px;
+}
+
+hr.dotted-line {
+  border: none;
+  border-top: 3px dotted orangered;
+  margin: 3.0em 0 1.5em;
+}
+
+#date-and-time {
+  font-size: 12px;
+}
